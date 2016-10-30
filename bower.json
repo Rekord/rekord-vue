@@ -1,0 +1,31 @@
+{
+  "name": "rekord-vue",
+  "version": "1.4.0",
+  "homepage": "https://github.com/Rekord/rekord-vue",
+  "authors": [
+    "Philip Diffenderfer <pdiffenderfer@gmail.com>"
+  ],
+  "description": "A rekord binding to Vue.js",
+  "main": "build/rekord-vue.js",
+  "keywords": [
+    "javascript",
+    "orm",
+    "offline",
+    "realtime",
+    "rekord",
+    "vue",
+    "vuejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rekord": "~1.4.0",
+    "vue": "^2.0.3"
+  }
+}
