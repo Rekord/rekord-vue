@@ -1,4 +1,4 @@
-/* rekord-vue 1.4.2 - A rekord binding to Vue.js by Philip Diffenderfer */
+/* rekord-vue 1.5.0 - A rekord binding to Vue.js by Philip Diffenderfer */
 // UMD (Universal Module Definition)
 (function (root, factory)
 {
@@ -25,8 +25,9 @@
 {
 
   var Collection = Rekord.Collection;
+  var Class = Rekord.Class;
 
-  Rekord.replaceMethod( Collection.prototype, 'trigger', function($trigger)
+  Class.replace( Collection, 'trigger', function($trigger)
   {
     return function trigger(eventName, args)
     {

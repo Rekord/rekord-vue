@@ -1,6 +1,6 @@
 {
   "name": "rekord-vue",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "description": "A rekord binding to Vue.js",
   "author": "Philip Diffenderfer",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "jshint": "^2.9.2"
   },
   "dependencies": {
-    "rekord": "^1.4.8",
+    "rekord": "^1.5.0",
     "vue": "^2.0.3"
   }
 }

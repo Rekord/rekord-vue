@@ -24,8 +24,9 @@
 {
 
   var Collection = Rekord.Collection;
+  var Class = Rekord.Class;
 
-  Rekord.replaceMethod( Collection.prototype, 'trigger', function($trigger)
+  Class.replace( Collection, 'trigger', function($trigger)
   {
     return function trigger(eventName, args)
     {
